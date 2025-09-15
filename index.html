@@ -1,35 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rewards Hub</title>
   <style>
     body {
       margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background: linear-gradient(135deg, #6a11cb, #2575fc);
-      font-family: Arial, sans-serif;
-      color: white;
       text-align: center;
     }
+    .container {
+      background: rgba(0,0,0,0.6);
+      padding: 40px;
+      border-radius: 12px;
+      max-width: 400px;
+      width: 90%;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
     h1 {
-      font-size: 3em;
-      margin-bottom: 0.5em;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
     }
     p {
-      font-size: 1.5em;
-      opacity: 0.9;
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .cta {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #ff9800;
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+      font-weight: bold;
+    }
+    .cta:hover {
+      background: #e68900;
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      p { font-size: 1rem; }
     }
   </style>
 </head>
 <body>
-  <div>
-    <h1>Rewards Hub 🚀</h1>
-    <p>Coming Soon...</p>
+  <div class="container">
+    <h1>Rewards Hub</h1>
+    <p>Complete surveys & offers to earn rewards instantly.</p>
+    <a href="YOUR_SURVEOO_SMARTLINK_URL" class="cta">Start Earning</a>
   </div>
 </body>
 </html>
+
